@@ -1938,6 +1938,7 @@ var Logo = function (_a) {
     var isDark = _a.isDark, props = __rest(_a, ["isDark"]);
     var textColor = isDark ? "#FFFFFF" : "#432918";
     return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 160 26" }, props),
+        React__default['default'].createElement("circle", { cx: "15", cy: "15", r: "15", fill: "#64C6EB" }),
         React__default['default'].createElement("g", null,
             React__default['default'].createElement("path", { d: "M14,5a6,6,0,0,0-3.34-4C7.92-.09,4.17-.66,1.67,1.2s.89,8.3,3.14,8.58,5.8-1,8.51,1.58S14.3,6,14,5Z", transform: "translate(-0.78 0.01)", fill: "#9c9b9b" }),
             React__default['default'].createElement("path", { d: "M11.93,4.53C11,2.38,7,1.31,4.56,2.27s.53,5,1.32,5.58A8.12,8.12,0,0,0,10,8.78C10.68,8.57,12.16,5.09,11.93,4.53Z", transform: "translate(-0.78 0.01)", fill: "#706f6e" })),
