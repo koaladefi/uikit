@@ -356,6 +356,7 @@ var Icon$p = function (props) {
 
 var Icon$q = function (props) {
     return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 32 32" }, props),
+        React__default['default'].createElement("circle", { cx: "16", cy: "16", r: "16", fill: "#64C6EB" }),
         React__default['default'].createElement("g", null,
             React__default['default'].createElement("path", { d: "M13.76,8.72a6.31,6.31,0,0,0-3.49-4.15C7.46,3.45,3.54,2.85.92,4.79s.94,8.68,3.29,9,6.06-1,8.9,1.64S14.13,9.81,13.76,8.72Z", transform: "translate(0 -3.53)", fill: "#9c9b9b" }),
             React__default['default'].createElement("path", { d: "M11.65,8.27C10.72,6,6.45,4.91,4,5.92s.55,5.23,1.37,5.83a8.68,8.68,0,0,0,4.31,1C10.34,12.49,11.9,8.86,11.65,8.27Z", transform: "translate(0 -3.53)", fill: "#706f6e" })),
