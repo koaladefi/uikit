@@ -28,7 +28,7 @@ const useProps = () => {
     langs,
     setLang: noop,
     currentLang: "EN",
-    cakePriceUsd: 0.023158668932877668,
+    cakePriceUsd: 24.023158668932877668,
     links,
     profile: null,
   });
@@ -44,7 +44,7 @@ const useProps = () => {
         langs,
         setLang: noop,
         currentLang: "EN",
-        cakePriceUsd: 0.023158668932877668,
+        cakePriceUsd: 24.023158668932877668,
         links,
         profile: null,
       });
