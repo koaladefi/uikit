@@ -29,10 +29,10 @@ export const links = [
     href: "/syrup",
   },
   {
-    label: 'Certik Audit (In-Progress)',
-    icon: 'ShieldIcon',
-    href: 'https://twitter.com/KoalaDefi/status/1367218225310818308',
-    target: '_blank'
+    label: "Certik Audit (In-Progress)",
+    icon: "ShieldIcon",
+    href: "https://twitter.com/KoalaDefi/status/1367218225310818308",
+    target: "_blank",
   },
   {
     label: "Lottery",
