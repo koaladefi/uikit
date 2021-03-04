@@ -3,6 +3,7 @@ export interface Props {
     secondary?: boolean;
     isActive?: boolean;
     theme: DefaultTheme;
+    target?: string;
 }
 declare const LinkLabel: import("styled-components").StyledComponent<"div", DefaultTheme, {
     isPushed: boolean;

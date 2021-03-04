@@ -3,6 +3,7 @@ export declare const links: ({
     icon: string;
     href: string;
     items?: undefined;
+    target?: undefined;
     calloutClass?: undefined;
 } | {
     label: string;
@@ -12,6 +13,14 @@ export declare const links: ({
         href: string;
     }[];
     href?: undefined;
+    target?: undefined;
+    calloutClass?: undefined;
+} | {
+    label: string;
+    icon: string;
+    href: string;
+    target: string;
+    items?: undefined;
     calloutClass?: undefined;
 } | {
     label: string;
@@ -22,6 +31,7 @@ export declare const links: ({
     }[];
     calloutClass: string;
     href?: undefined;
+    target?: undefined;
 })[];
 export declare const socials: ({
     label: string;
