@@ -5,6 +5,7 @@ export interface Props {
   secondary?: boolean;
   isActive?: boolean;
   theme: DefaultTheme;
+  target?: string;
 }
 
 const rainbowAnimation = keyframes`
@@ -63,6 +64,7 @@ const MenuEntry = styled.div<Props>`
 MenuEntry.defaultProps = {
   secondary: false,
   isActive: false,
+  target: '_self',
   role: "button",
 };
 
