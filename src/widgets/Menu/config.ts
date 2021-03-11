@@ -35,6 +35,11 @@ export const links = [
     target: "_blank",
   },
   {
+    label: "Bush",
+    icon: "BushIcon",
+    href: "/bush",
+  },
+  {
     label: "Lottery",
     icon: "TicketIcon",
     href: "/lottery",
