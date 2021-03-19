@@ -1,5 +1,5 @@
 {
-  "name": "@pancakeswap-libs/uikit",
+  "name": "@apeswapfinance/uikit",
   "version": "0.13.1",
   "description": "Set of UI components for pancake projects",
   "main": "dist/index.cjs.js",
