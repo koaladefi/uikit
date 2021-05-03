@@ -40,6 +40,11 @@ export const links = [
     href: "/bush",
   },
   {
+    label: "Koasino",
+    icon: "KoasinoIcon",
+    href: "/koasino",
+  },
+  {
     label: "Lottery",
     icon: "TicketIcon",
     href: "/lottery",
@@ -111,7 +116,7 @@ export const links = [
       {
         label: "Github",
         href: "https://github.com/koaladefi/",
-        target: '_blank',
+        target: "_blank",
       },
       {
         label: "Docs",
