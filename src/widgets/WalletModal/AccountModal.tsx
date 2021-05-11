@@ -6,6 +6,8 @@ import Flex from "../../components/Box/Flex";
 import { Modal } from "../Modal";
 import CopyToClipboard from "./CopyToClipboard";
 import { connectorLocalStorageKey } from "./config";
+import { Link } from "../../components/Link";
+import { InfoIcon } from "../../components/Svg";
 
 interface Props {
   account: string;
@@ -27,6 +29,9 @@ const AccountModal: React.FC<Props> = ({ account, logout, onDismiss = () => null
         View on BscScan
       </LinkExternal>
       <CopyToClipboard toCopy={account}>Copy Address</CopyToClipboard>
+    </Flex>
+    <Flex mb="32px">
+      <InfoIcon width="20px" color="primary" ml="4px" /> <Link href="/profile/stats">My stats</Link>
     </Flex>
     <Flex justifyContent="center">
       <Button
