@@ -150,6 +150,11 @@ export const socials = [
     icon: "TwitterIcon",
     href: "https://twitter.com/KoalaDefi",
   },
+  {
+    label: "Reddit",
+    icon: "RedditIcon",
+    href: "https://www.reddit.com/r/KoalaDefi/",
+  },
 ];
 
 export const MENU_HEIGHT = 64;
